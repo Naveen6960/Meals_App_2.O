@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="home-link">Home</a></li>
+                <li class="categories">
+                    <a id="categories-link">Categories</a>
+                    <div class="categories-table">
+                        <table>
+                            <tr>
+                                <td><a href="#">Veg</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Non-Veg</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <a href="#" id="profile">Profile</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>MEALS APP</h1>
+        <div class="food">
+            <h2>~-FOOD COURT-~</h2>
+        </div>
+        <div class="text-love">
+            <p>Where there is Food, there is Love!!!🖤</p>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search For Meal">
+                <button class="search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div class="container-paraa"></div>
+            <button class="random-btn" id="random">
+                <i class="fas fa-random"></i>
+            </button>
+        </div>
+        <div class="result-heading"></div>
+        <div id="meals" class="meals"></div>
+        <div id="single-meal"></div>
+        <div class="image-container">
+            <img src="https://wallpapercave.com/wp/wp7314450.jpg" alt="Your Image Description">
+        </div>
+    </div>
+    <div class="text-owner">
+        <div class="logo"></div>
+        <p>Designed by Kshirasagar Naveen</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
